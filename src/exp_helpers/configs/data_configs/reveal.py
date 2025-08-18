@@ -1,0 +1,46 @@
+DATA_CONFIGS = {
+    'reveal_eval': {
+        'task_name': 'reveal_eval',
+        'task_id': 'eval',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': False,
+    },
+    'reveal_open': {
+        'task_name': 'reveal_open',
+        'task_id': 'open',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': False,
+    },
+    'reveal_eval_evidence': {
+        'task_name': 'reveal_eval_evidence',
+        'task_id': 'eval_evidence',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': True,
+    },
+    'reveal_open_evidence': {
+        'task_name': 'reveal_open_evidence',
+        'task_id': 'open_evidence',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': True,
+    },
+    'reveal_eval_attributes': {
+        'task_name': 'reveal_eval_attributes',
+        'task_id': 'eval_attributes',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': False,
+        'use_attributes': True,
+    },
+    'reveal_open_attributes': {
+        'task_name': 'reveal_open_attributes',
+        'task_id': 'open_attributes',
+        'overcomplete': True,
+        'dataset_type': 'reveal',
+        'use_evidence': False,
+        'use_attributes': True,
+    },
+}
