@@ -1,0 +1,10 @@
+transformers==4.46.3
+anthropic
+openai
+qwen_vl_utils
+git+https://github.com/huggingface/transformers
+accelerate
+vllm>=0.10.2
+google-genai
+nltk
+datasets
