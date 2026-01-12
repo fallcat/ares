@@ -1,0 +1,188 @@
+{
+    "steps": {
+        "0": "START",
+        "1": "Microwave-Microwave on high for 90 seconds until the egg is cooked through",
+        "3": "add-add bread pieces to the egg mixture in the mug, pressing the bread down into the egg",
+        "4": "stir-stir the mug",
+        "5": "melt-In a large mug, melt 1 tablespoon of softened butter in the microwave for about 30 seconds",
+        "6": "Sprinkle-Sprinkle 1/4 teaspoon cinnamon over the egg",
+        "7": "cut-cut the contents on plate, and serve",
+        "8": "Put-Put the mug's contents on a plate",
+        "9": "Roll-Roll the butter around in the mug to coat it",
+        "10": "Cut or tear-Cut or tear 1 slices of bread into bite-size pieces",
+        "11": "Add-Add 1/4 teaspoon vanilla extract to the mug",
+        "12": "whisk-In the mug, whisk one egg with a fork until well blended",
+        "13": "END"
+    },
+    "edges": [
+        [
+            3,
+            1
+        ],
+        [
+            10,
+            3
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            1,
+            8
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            13
+        ]
+    ],
+    "topo_order": [
+        0,
+        5,
+        10,
+        9,
+        12,
+        6,
+        11,
+        4,
+        3,
+        1,
+        8,
+        7,
+        13
+    ],
+    "ingredients": [
+        null,
+        null,
+        [
+            "bread",
+            "egg"
+        ],
+        null,
+        [
+            "butter"
+        ],
+        [
+            "cinnamon",
+            "egg"
+        ],
+        null,
+        null,
+        [
+            "butter"
+        ],
+        [
+            "bread"
+        ],
+        [
+            "None"
+        ],
+        [
+            "egg"
+        ],
+        null
+    ],
+    "all_ingredients": [
+        "bread",
+        "egg",
+        "butter",
+        "cinnamon",
+        "egg",
+        "butter",
+        "bread",
+        "None",
+        "egg"
+    ],
+    "ingredient_mapping": {
+        "bread": "bread",
+        "egg": "egg",
+        "butter": "butter",
+        "cinnamon": "cinnamon",
+        "None": "None"
+    },
+    "all_mapped_ingredients": [
+        "bread",
+        "egg",
+        "butter",
+        "cinnamon",
+        "egg",
+        "butter",
+        "bread",
+        "None",
+        "egg"
+    ],
+    "all_mapped_ingredients_unique": [
+        "None",
+        "bread",
+        "butter",
+        "cinnamon",
+        "egg"
+    ],
+    "step_mapped_ingredients": [
+        null,
+        null,
+        [
+            "bread",
+            "egg"
+        ],
+        null,
+        [
+            "butter"
+        ],
+        [
+            "cinnamon",
+            "egg"
+        ],
+        null,
+        null,
+        [
+            "butter"
+        ],
+        [
+            "bread"
+        ],
+        [
+            "None"
+        ],
+        [
+            "egg"
+        ],
+        null
+    ]
+}

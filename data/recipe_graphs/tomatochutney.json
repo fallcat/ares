@@ -1,0 +1,307 @@
+{
+    "steps": {
+        "0": "START",
+        "1": "Add-Add 1/4 tsp mustard to the pan",
+        "2": "mince-mince the garlic",
+        "3": "Add-1/2 tsp cumin seeds to the pan",
+        "4": "Add-Add tomato puree to the pan",
+        "5": "Take-Take the pan off the heat",
+        "6": "Mix-Mix well tomato puree with contents in the pan",
+        "7": "Peel-Peel 4 large garlic cloves",
+        "8": "Add-1/2 tsp salt to the pan",
+        "9": "Add-Add 2 tbsp red chili powder to the pan",
+        "10": "Saute-Saute the garlic for 2-3 minutes",
+        "11": "Take-Take 1 tomato",
+        "12": "puree-puree tomatoes without any water in a blender/mixer",
+        "13": "Lower-Lower the heat",
+        "14": "add-When mustard and cumin seeds begin to sizzle, add minced garlic",
+        "15": "simmer-Allow the mixture to simmer over low heat for 5 minutes or until the mixture becomes thick",
+        "16": "Heat-Heat 3 tbsp oil in a pan over medium heat",
+        "17": "Chop-Chop tomato roughly (anysize chunks are fine)",
+        "18": "Transfer-Transfer it to a serving bowl",
+        "19": "mix-mix well contents of the pan",
+        "20": "END"
+    },
+    "edges": [
+        [
+            16,
+            1
+        ],
+        [
+            7,
+            2
+        ],
+        [
+            16,
+            3
+        ],
+        [
+            15,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            19,
+            8
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            13,
+            10
+        ],
+        [
+            17,
+            12
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            1,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            19,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "topo_order": [
+        0,
+        7,
+        11,
+        2,
+        17,
+        12,
+        16,
+        1,
+        3,
+        14,
+        13,
+        10,
+        9,
+        19,
+        8,
+        4,
+        6,
+        15,
+        5,
+        18,
+        20
+    ],
+    "ingredients": [
+        null,
+        [
+            "mustard"
+        ],
+        [
+            "garlic"
+        ],
+        [
+            "cumin seeds"
+        ],
+        [
+            "tomato"
+        ],
+        null,
+        [
+            "tomato puree"
+        ],
+        [
+            "4 large garlic cloves"
+        ],
+        [
+            "salt"
+        ],
+        [
+            "red chili powder"
+        ],
+        [
+            "garlic"
+        ],
+        [
+            "tomato"
+        ],
+        [
+            "tomatoes"
+        ],
+        null,
+        [
+            "mustard seeds",
+            "cumin seeds",
+            "garlic"
+        ],
+        null,
+        [
+            "oil"
+        ],
+        [
+            "tomato"
+        ],
+        null,
+        null,
+        null
+    ],
+    "all_ingredients": [
+        "mustard",
+        "garlic",
+        "cumin seeds",
+        "tomato",
+        "tomato puree",
+        "4 large garlic cloves",
+        "salt",
+        "red chili powder",
+        "garlic",
+        "tomato",
+        "tomatoes",
+        "mustard seeds",
+        "cumin seeds",
+        "garlic",
+        "oil",
+        "tomato"
+    ],
+    "ingredient_mapping": {
+        "mustard": "mustard",
+        "garlic": "garlic",
+        "cumin seeds": "cumin seeds",
+        "tomato": "tomato",
+        "tomato puree": "tomato",
+        "4 large garlic cloves": "garlic",
+        "salt": "salt",
+        "red chili powder": "red chili powder",
+        "tomatoes": "tomato",
+        "mustard seeds": "mustard seeds",
+        "oil": "oil"
+    },
+    "all_mapped_ingredients": [
+        "mustard",
+        "garlic",
+        "cumin seeds",
+        "tomato",
+        "tomato",
+        "garlic",
+        "salt",
+        "red chili powder",
+        "garlic",
+        "tomato",
+        "tomato",
+        "mustard seeds",
+        "cumin seeds",
+        "garlic",
+        "oil",
+        "tomato"
+    ],
+    "all_mapped_ingredients_unique": [
+        "cumin seeds",
+        "garlic",
+        "mustard",
+        "mustard seeds",
+        "oil",
+        "red chili powder",
+        "salt",
+        "tomato"
+    ],
+    "step_mapped_ingredients": [
+        null,
+        [
+            "mustard"
+        ],
+        [
+            "garlic"
+        ],
+        [
+            "cumin seeds"
+        ],
+        [
+            "tomato"
+        ],
+        null,
+        [
+            "tomato"
+        ],
+        [
+            "garlic"
+        ],
+        [
+            "salt"
+        ],
+        [
+            "red chili powder"
+        ],
+        [
+            "garlic"
+        ],
+        [
+            "tomato"
+        ],
+        [
+            "tomato"
+        ],
+        null,
+        [
+            "mustard seeds",
+            "cumin seeds",
+            "garlic"
+        ],
+        null,
+        [
+            "oil"
+        ],
+        [
+            "tomato"
+        ],
+        null,
+        null,
+        null
+    ]
+}
